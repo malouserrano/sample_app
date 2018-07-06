@@ -42,6 +42,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'rubocop', '~> 0.57.2', require: false
 
+gem 'bcrypt', '3.1.12'
+
 group :development, :test do
   gem 'sqlite3', '1.3.13'
   # Call 'byebug' anywhere in the code to stop execution
