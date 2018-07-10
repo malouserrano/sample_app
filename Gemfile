@@ -7,6 +7,10 @@ ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
+gem 'bcrypt', '3.1.12'
+gem 'faker', '1.7.3'
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
@@ -41,8 +45,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'rubocop', '~> 0.57.2', require: false
-
-gem 'bcrypt', '3.1.12'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
